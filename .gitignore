@@ -1,6 +1,7 @@
 HELP.md
 .gradle
 build/
+conf.d/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
@@ -40,8 +41,9 @@ out/
 # Spring Boot 환경별 설정 파일 제외
 src/main/resources/application-local.properties
 src/main/resources/application-test.properties
-src/main/resources/application-operation.properties
 src/main/resources/application-common.properties
+src/main/resources/application-aws.properties
+src/main/resources/application-operation.properties
 
 src/main/java/com/demo/backend/repository/
 src/main/java/com/demo/backend/entity/
